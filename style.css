@@ -1,75 +1,49 @@
-/* Styling for the body */ 
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
 
-body { 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26667F;
+    padding: 14px 40px;
+}
 
-    font-family: Arial, sans-serif; 
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 
-    background-color: #FFFBF1; 
+.menu a {
+    text-decoration: none;
+    color: #f9fafb;
+    font-size: 17px;
+    padding: 10px 16px;
+    margin-left: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
 
-    color: #4C5C2D; 
-
-    margin: 50px; 
-
-    padding: 20px; 
-
-    text-align: center;
-
-} 
-
- 
-
-/* Styling for the headings */ 
-
-h1 { 
-
-    color: #84934A; 
-
-    font-size: 28px; 
-
-    text-align: center; 
-    text-align: center;
-
-} 
-
- 
-
-h3 { 
-
-    color: #228b22; 
-
-    font-size: 22px; 
-
-} 
-
-
- 
-
-/* Styling for the links */ 
-
-a { 
-
-    color: #008b8b; 
-
-    text-decoration: none; 
-
-    font-weight: bold; 
-
-    margin-right: 10px; 
-    text-align: center;
-
-} 
-
- 
-
-a:hover { 
-    color: #3BC1A8; 
+.menu a:hover {
+    background-color: white;
+    color: #26667F;
 }
 
 p {
+    color: white;
     text-align: center;
 }
 
-img{
-    border: 5px solid #228b22;
-    border-radius: 0 60px 0 60px;
+h1 {
+    color:white;
+    text-align: center;
+}
+
+hr {
+    color: white;
 }
