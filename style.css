@@ -1,49 +1,64 @@
+/* styles.css */
+
+/* Style for the entire body of the webpage */
 body {
-    margin:0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+  font-family: Arial, sans-serif; /* Sets font */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  background-color: #f0f4f7; /* Light background color */
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #26667F;
-    padding: 14px 40px;
+/* Style for the header section */
+/* Style for the header section */
+.header {
+  text-align: center; /* Center text */
+  margin: 1% 20%; /* Reduced horizontal margin */
+  background-color: #c14b36; /* Teal background */
+  color: #ffffff; /* White text */
+  padding: 15px; /* Reduced padding to make header less tall */
+  border-radius: 8px; /* Rounded corners */
 }
 
-.logo {
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 3px;
+.header h1 {
+  font-size: 30px; /* Smaller font size for a more compact look */
+  margin: 0; /* Remove default margin */
 }
 
-.menu a {
-    text-decoration: none;
-    color: #f9fafb;
-    font-size: 17px;
-    padding: 10px 16px;
-    margin-left: 10px;
-    border-radius: 6px;
-    transition: 0.3s;
+
+/* Style for the gallery container */
+.gallery-container {
+  display: flex; /* Use flexbox layout */
+  flex-wrap: wrap; /* Allow wrapping of items */
+  gap: 10px; /* Space between images */
+  justify-content: center; /* Center gallery items */
 }
 
-.menu a:hover {
-    background-color: white;
-    color: #26667F;
+/* Style for each gallery item */
+.gallery {
+  margin: 5px; /* Margin around each item */
+  border: 1px solid #ccc; /* Border color */
+  width: 700px; /* Fixed width of each image container */
 }
 
-p {
-    color: white;
-    text-align: center;
+.gallery:hover {
+  border: 4px solid #499286; /* Darker border on hover */
+  transition: 0.3s;
 }
 
-h1 {
-    color:white;
-    text-align: center;
+/* Style for images within gallery items */
+.gallery img {
+  width: 100%; /* Full width of container */
+  height: 100%px; /* Fixed height */
+  object-fit: cover; /* Cover the container without distortion */
 }
 
-hr {
-    color: white;
+.desc {
+  padding: 15px; /* Padding inside the description */
+  text-align: center; /* Center text */
 }
+
+
+
+
+
+
